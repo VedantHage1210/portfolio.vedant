@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Hage | Portfolio</title>
+    <meta name="description" content="Vedant Hage — B.Tech CSE (Cybersecurity) student, aspiring SDE. Full-stack projects in Laravel, React and Node.js.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">vedant<span style="color:var(--text-faint)">.dev</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul id="navMenu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Vedant_Hage_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <div>
+                <div class="hero-eyebrow"><span class="blinker"></span> AVAILABLE FOR SDE INTERNSHIPS</div>
+                <h1>Hi, I'm <span>Vedant Hage</span><br>I build software that solves real problems.</h1>
+                <p class="lede">
+                    B.Tech CSE (Cybersecurity) student at GHRCEM, Nagpur, currently in my third year. I work across
+                    the stack — Laravel and Node.js on the backend, React on the frontend — and I'm sharpening my DSA
+                    and ethical hacking skills alongside it. Organized, hands-on, and looking to launch my career as
+                    a Software Development Engineer.
+                </p>
+                <div class="hero-actions">
+                    <a href="projects.html" class="btn"><i class="fa-solid fa-terminal"></i> View Projects</a>
+                    <a href="Vedant_Hage_Resume.pdf" target="_blank" rel="noopener" class="btn-ghost"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+                    <a href="contact.html" class="btn-ghost"><i class="fa-regular fa-paper-plane"></i> Get in Touch</a>
+                </div>
+                <div class="social-row">
+                    <a href="https://github.com/VedantHage1210" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vedant-hage-471a42359" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vedanthage4@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <div class="profile-frame">
+                    <span class="corner tl"></span>
+                    <img src="vedant.jpeg" alt="Vedant Hage" class="profile-circle">
+                    <span class="corner br"></span>
+                </div>
+                <div class="terminal" style="margin-top: 28px;">
+                    <div class="terminal-bar">
+                        <span></span><span></span><span></span>
+                        <span class="terminal-title">vedant@dev — zsh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="line"><span class="prompt">$</span> whoami</div>
+                        <div class="line out" id="typed-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>© 2026 Vedant Hage. Built with HTML, CSS &amp; JS.</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
